@@ -1,0 +1,71 @@
+body {
+  background-color: #78bbcb;
+}
+
+.title {
+  display: flex;
+}
+
+.gif-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gif-column2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gif-emoji {
+  padding: 30px 55px;
+}
+
+.gif-emoji__big {
+  width: 80px;
+}
+
+.gif-emoji__bigger {
+  width: 132px;
+}
+
+@media (max-width: 1440px) {
+  .gif-emoji {
+    padding: 24px 48px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .gif-emoji {
+    padding: 20px 40px;
+  }
+  .gif-emoji__big {
+    width: 40px;
+  }
+
+  .gif-emoji__bigger {
+    width: 112px;
+  }
+  .gif-emoji-Jesus {
+    width: 204px;
+  }
+}
+
+@media (max-width: 768px) {
+  .gif-emoji {
+    padding: 14px 28px;
+  }
+  .gif-emoji__big {
+    width: 30px;
+  }
+
+  .gif-emoji__bigger {
+    width: 96px;
+  }
+  .gif-emoji-Jesus {
+    width: 190px;
+  }
+}
