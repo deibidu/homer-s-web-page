@@ -1,0 +1,11 @@
+:root {
+  --font-number: 32px;
+  --font-text: 16px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --font-number: 28px;
+    --font-text: 16px;
+  }
+}
